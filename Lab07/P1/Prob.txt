@@ -1,0 +1,41 @@
+Problema 1
+----------
+Sa se sorteze un vector de numere intregi folosind o metoda la alegere (bubble sort, insertion sort, etc).
+	
+	void sort(int *v, int n);
+
+Ex: v1 = [5, 2, 9, 1, 4], n = 5 -> v1 = [1, 2, 4, 5, 9];
+Nu se va permite accesul elementelor folosind operatorul [].
+
+
+Problema 2
+----------
+
+Sa se scrie o functie care are urmatoarea declaratie: 
+
+	void filter (int (*f) (int), int *v, int *n).
+
+Functia trebuie sa modifice vectorul v, pastrand in vector doar
+elementele pentru care f intoarce “Adevarat” (il codificati cum doriti).
+
+	n reprezinta lungimea vectorului si se va modifica dupa apelul functiei la noua dimensiune a vectorului.
+
+Va trebui sa se scrie si o functie f pentru a testa functionalitatea (de exemplu sa verifice daca un element este par sau nu -> int isEven(int x) )."
+
+Aceasta problema nu contine teste.
+
+Bonus
+-----
+
+Să se scrie o funcţie pentru calculul integralei definite pe un interval dat [a,b] a unei funcţii
+oarecare (cu rezultat real) f(x), prin metoda trapezelor, cu un număr dat de paşi.
+
+	double calculateIntegral(double (*func) (double x), double a, double b, int n ).
+	
+	f -> functia pe care aplicam integrala. Primeste parametrul x si intoarce f(x).
+	a si b sunt capetele intervalului (a < b mereu);
+	n este numarul de subintervale egale in care dorim sa impartim intervalul [a, b].
+
+Cu cat n este mai mare, cu atat functia va returna o valoare mai precisa.
+
+Aceasta problema nu contine teste.
