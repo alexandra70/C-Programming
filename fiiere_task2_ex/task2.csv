@@ -1,0 +1,24 @@
+1. Numim element majoritar un element care apare de cel putin [n/2] + 1 ori intr-un fisier. Gasiti elementul majoritar dintr-un fisier fara a folosi memorie suplimentara (vectori). Se garanteza ca mereu va exista un element majoritar.,
+,
+data.in,data.out
+5,1
+2 1 1 3 1,
+6,10
+10 10 20 20 10 10,
+,
+,
+"2. Se da un fi?ier binar cu numere întregi. Nu se specifica num?rul de numere din fi?ier, deci va trebui g?sita o modalitate de a afla cate numere avem în fi?ier. Apoi, se dore?te aflarea celui mai frecvent element dintre cele citite (în caz de egalitate se afi?eaz? cel mai mic num?r).",
+,
+data.in,data.out
+<binary data>,<a number as text>
+,
+"3. Se da un fisier binar cu numere intregi. Nu se specifica numarul de numere din fisier, deci va trebui gasita o modalitate de a afla cate numere avem in fisier. Apoi, se doreste aflarea sumei numerelor din fisier. Aceasta se va afisa in fisierul data.out.",
+,
+data.in,
+<binary data>,
+,
+data.out,
+<a number as text>,
+,
+"4.  Se citeste de la tastatura 2 numere, K si N, iar apoi un vector cu N numere naturale. Se doreste formarea a K fisiere cu numele “output0.txt”, “output1.txt” … “output(K-1).txt”, iar in fiecare din aceste fisiere sa scriem doar acele numere care dau restul i la impartirea cu K.",
+"Exemplu: Daca avem K=5, vom forma 5 fisiere de iesire (de la “output0.txt” pana la “output4.txt”). In fiecare fisier x vom avea doar acele numere ce dau restul x la impartirea cu K. De exemplu, fisierul “output0.txt” poate avea numerele “20 5 90 55”, iar fisierul “output3.txt” poate contine “23 58 103 3”, in functie de numerele citite de la tastatura.",
