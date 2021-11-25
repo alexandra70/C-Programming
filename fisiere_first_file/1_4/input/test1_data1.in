@@ -1,0 +1,1 @@
+Just remember, for all the solutions given so far, the shell decides the order in which the files are concatenated. For Bash, IIRC, that's alphabetical order. If the order is important, you should either name the files appropriately (01file.txt, 02file.txt, etc...) or specify each file in the order you want it concatenated.

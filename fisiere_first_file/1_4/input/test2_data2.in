@@ -1,0 +1,13 @@
+ype [source folder]\*.[File extension] > [destination folder]\[file name].[File extension]
+For Example:
+
+type C:\*.txt > C:\1\all.txt
+That will Take all the txt files in the C:\ Folder and save it in C:\1 Folder by the name of all.txt
+
+Or
+
+type [source folder]\* > [destination folder]\[file name].[File extension]
+For Example:
+
+type C:\* > C:\1\all.txt
+That will take all the files that are present in the folder and put there Content in C:\1\all.txt

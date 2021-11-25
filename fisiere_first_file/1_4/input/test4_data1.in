@@ -1,0 +1,123 @@
+$ myfunc 'o "M' 'echo "My String"'
+String 'echo "My String"' contain substring 'o "M'.
+
+$ myfunc 'alt' 'echo "My String"'
+String 'echo "My String"' don't contain substring 'alt'.
+
+$ myfunc 'o "M' 'echo "My String"'
+String 'echo "My String"' contain substring 'o "M'.
+
+$ myfunc 'alt' 'echo "My String"'
+String 'echo "My String"' don't contain substring 'alt'.
+
+$ myfunc 'o "M' 'echo "My String"'
+String 'echo "My String"' contain substring 'o "M'.
+
+$ myfunc 'alt' 'echo "My String"'
+String 'echo "My String"' don't contain substring 'alt'.
+
+$ myfunc 'o "M' 'echo "My String"'
+String 'echo "My String"' contain substring 'o "M'.
+
+$ myfunc 'alt' 'echo "My String"'
+String 'echo "My String"' don't contain substring 'alt'.
+
+$ myfunc 'o "M' 'echo "My String"'
+String 'echo "My String"' contain substring 'o "M'.
+
+$ myfunc 'alt' 'echo "My String"'
+String 'echo "My String"' don't contain substring 'alt'.
+
+$ myfunc 'o "M' 'echo "My String"'
+String 'echo "My String"' contain substring 'o "M'.
+
+$ myfunc 'alt' 'echo "My String"'
+String 'echo "My String"' don't contain substring 'alt'.
+
+$ myfunc 'o "M' 'echo "My String"'
+String 'echo "My String"' contain substring 'o "M'.
+
+$ myfunc 'alt' 'echo "My String"'
+String 'echo "My String"' don't contain substring 'alt'.
+
+$ myfunc 'o "M' 'echo "My String"'
+String 'echo "My String"' contain substring 'o "M'.
+
+$ myfunc 'alt' 'echo "My String"'
+String 'echo "My String"' don't contain substring 'alt'.
+
+$ myfunc 'o "M' 'echo "My String"'
+String 'echo "My String"' contain substring 'o "M'.
+
+$ myfunc 'alt' 'echo "My String"'
+String 'echo "My String"' don't contain substring 'alt'.
+
+$ myfunc 'o "M' 'echo "My String"'
+String 'echo "My String"' contain substring 'o "M'.
+
+$ myfunc 'alt' 'echo "My String"'
+String 'echo "My String"' don't contain substring 'alt'.
+
+$ myfunc 'o "M' 'echo "My String"'
+String 'echo "My String"' contain substring 'o "M'.
+
+$ myfunc 'alt' 'echo "My String"'
+String 'echo "My String"' don't contain substring 'alt'.
+
+$ myfunc 'o "M' 'echo "My String"'
+String 'echo "My String"' contain substring 'o "M'.
+
+$ myfunc 'alt' 'echo "My String"'
+String 'echo "My String"' don't contain substring 'alt'.
+
+
+95
+down vote
+You should remember that shell scripting is less of a language and more of a collection of commands. Instinctively you think that this "language" requires you to follow an if with a [ or a [[. Both of those are just commands that return an exit status indicating success or failure (just like every other command). For that reason I'd use grep, and not the [ command.
+
+Just do:
+
+if grep -q foo <<<$string; then
+    echo "It's there"
+fi
+
+
+95
+down vote
+You should remember that shell scripting is less of a language and more of a collection of commands. Instinctively you think that this "language" requires you to follow an if with a [ or a [[. Both of those are just commands that return an exit status indicating success or failure (just like every other command). For that reason I'd use grep, and not the [ command.
+
+Just do:
+
+if grep -q foo <<<$string; then
+    echo "It's there"
+fi
+
+95
+down vote
+You should remember that shell scripting is less of a language and more of a collection of commands. Instinctively you think that this "language" requires you to follow an if with a [ or a [[. Both of those are just commands that return an exit status indicating success or failure (just like every other command). For that reason I'd use grep, and not the [ command.
+
+Just do:
+
+if grep -q foo <<<$string; then
+    echo "It's there"
+fi
+
+95
+down vote
+You should remember that shell scripting is less of a language and more of a collection of commands. Instinctively you think that this "language" requires you to follow an if with a [ or a [[. Both of those are just commands that return an exit status indicating success or failure (just like every other command). For that reason I'd use grep, and not the [ command.
+
+Just do:
+
+if grep -q foo <<<$string; then
+    echo "It's there"
+fi
+
+95
+down vote
+You should remember that shell scripting is less of a language and more of a collection of commands. Instinctively you think that this "language" requires you to follow an if with a [ or a [[. Both of those are just commands that return an exit status indicating success or failure (just like every other command). For that reason I'd use grep, and not the [ command.
+
+Just do:
+
+if grep -q foo <<<$string; then
+    echo "It's there"
+fi

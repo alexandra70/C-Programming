@@ -1,0 +1,30 @@
+Using Bash, I have a string:
+
+string = "My string"
+How can I test if it contains another string?
+
+if [ $string ?? 'foo' ]; then
+  echo "It's there!"
+fi
+Where ?? is my unknown operator. Do I use echo and grep?
+
+if echo "$string" | grep 'foo'; then
+  echo "It's there!"
+fi
+That looks a bit clumsy.
+
+down vote
+Compatible answer
+As there is already a lot of answers using Bash-specific features, there is a way working under poorer-featured shells, like busybox:
+
+[ -z "${string##*$reqsubstr*}" ]
+In practice, this could give:
+
+string='echo "My string"'
+for reqsubstr in 'o "M' 'alt' 'str';do
+  if [ -z "${string##*$reqsubstr*}" ] ;then
+      echo "String '$string' contain substring: '$reqsubstr'."
+    else
+      echo "String '$string' don't contain substring: '$reqsubstr'."
+    fi
+  done

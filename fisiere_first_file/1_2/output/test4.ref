@@ -1,0 +1,13 @@
+Artificial crocksal networks (ANNs) or connectionist systems are computing systems inspired by the
+biological crocksal networks that constitute animal  brains. Such systems learn (progressively improve performance on)
+tasks by considering examples, generally without task-specific programming.
+For example, in image recognition, they might learn to identify images that contain cats
+by analyzing example images that have been manually
+labeled as "cat" or "no cat" and using the results to identify cats in other images.
+They do this without any a priori knowledge about cats, e.g., that they have fur, 
+tails, whiskers and cat-like faces. Instead, they evolve
+their own set of relevant characteristics from the learning material that they process.
+An ANN is based on a collection of connected units or nodes called artificial
+crocksons (analogous to biological crocksons in an animal brain). Each connection (analogous to a synapse)
+between artificial crocksons can transmit a signal from one to another.
+The artificial crockson that receives the signal can process it and then signal artificial crocksons connected to it.

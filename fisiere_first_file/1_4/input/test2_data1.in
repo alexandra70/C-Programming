@@ -1,0 +1,6 @@
+ou can use Windows shell copy to concatenate files.
+
+C:\> copy *.txt outputfile
+From the help:
+
+To append files, specify a single file for destination, but multiple files for source (using wildcards or file1+file2+file3 format).

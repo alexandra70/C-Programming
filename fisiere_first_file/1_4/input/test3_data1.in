@@ -1,0 +1,14 @@
+Using Bash, I have a string:
+
+string = "My string"
+How can I test if it contains another string?
+
+if [ $string ?? 'foo' ]; then
+  echo "It's there!"
+fi
+Where ?? is my unknown operator. Do I use echo and grep?
+
+if echo "$string" | grep 'foo'; then
+  echo "It's there!"
+fi
+That looks a bit clumsy.
