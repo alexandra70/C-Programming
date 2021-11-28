@@ -1,0 +1,21 @@
+Se citeste o matrice cu N linii si M coloane si un numar C reprezentand indicele unei coloane. Toate numerele de pe acea coloana vor fi inlocuite cu maximul de pe linia din care fac parte.
+
+
+Input
+3 4 2           Output
+0 10 12 2       0 10 12 2
+4 5 21 89       4 5 89 89
+10 12 9 3       10 12 12 3
+
+
+Se citeste o matrice cu N linii si M coloane. Urmeaza Q query-uri de forma: x1 y1 x2 y2. Sa se afiseze suma elementelor dintre cele 2 pozitii.
+
+
+Input               Output
+3 3                 12
+1 2 3               28
+4 5 6
+7 8 9
+2
+0 0 1 1
+1 1 2 2
