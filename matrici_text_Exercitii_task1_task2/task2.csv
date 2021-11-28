@@ -1,0 +1,61 @@
+﻿1. Scrieţi un program care citeşte de la tastatură un număr natural n şi construieşte în memorie o
+ matrice cu n linii şi n coloane ale cărei elemente vor primi valori după cum urmează:
+
+elementele aflate pe diagonala principală a matricei vor primi valoarea 0
+elementele de pe prima coloană, cu excepţia celui aflat pe diagonala principală vor primi valoarea n
+elementele de pe a doua coloană, cu excepţia celui aflat pe diagonala principală vor primi valoarea n-1
+…
+elementele de pe ultima coloană, cu excepţia celui aflat pe diagonala principală vor primi valoarea 1
+
+2. Scrieţi un program care citeşte de la tastatură două numere naturale nenule n şi m şi construieşte
+ în memorie o matrice cu n linii şi m coloane astfel încât, parcurgând tabloul linie cu linie de sus
+ în jos şi fiecare linie de la stânga la dreapta, să se obţină şirul primelor n*m pătrate perfecte impare 
+ , ordonat strict crescător.
+ 
+3. Scrieţi un program care citeşte de la tastatură două numere naturale nenule n şi m şi care construieşte
+ în memorie şi apoi afişează o matrice A cu n linii şi m coloane astfel încât prin parcurgerea acesteia linie
+ cu linie de sus în jos şi fiecare linie de la stânga la dreapta, se obţin în ordine descrescătoare toate
+ numerele naturale de la 1 la m*n.
+ 
+4. Scrieţi un program care citeşte de la tastatură trei numere naturale n, a, b şi construieşte în memorie
+ o matrice cu n linii şi n coloane formată numai din valori 0, 1, 2, 3 şi 4 astfel încât:
+ elementele aflate pe linia a sau coloana b sunt egale cu 0, cele aflate deasupra liniei a şi la stânga coloanei b sunt egale cu 1,
+ cele aflate deasupra liniei a şi la dreapta coloanei b sunt egale cu 2, cele aflate sub linia a şi la stânga coloanei b sunt egale cu 3,
+ iar elementele aflate sub linia a şi la dreapta coloanei b sunt egale cu 4.
+
+5. Se citeste o matrice cu N linii si M coloane. Sa se creeze si printeze o noua matrice ce reprezinta matricea initiala rotita cu 90 de grade
+ in sensul acelor de ceasornic. (Extra: Cum s-ar rezolva problema daca nu am avea voie cu memorie suplimentara(in place)?)
+
+Input
+4 4                 Output
+11 12 13 14         41 31 21 11
+21 22 23 24         42 32 22 12
+31 32 33 34         43 33 23 13
+41 42 43 44         44 34 24 14
+
+6. Se citeste o matrice cu N linii si M coloane. Urmeaza Q query-uri de forma: x1 y1 x2 y2. Sa se afiseze suma elementelor dintre cele 2 pozitii.
+
+Input               Output
+3 3                 12
+1 2 3               28
+4 5 6
+7 8 9
+2
+0 0 1 1
+1 1 2 2
+
+7. Se citeste o matrice cu N linii si M coloane. Sa se afiseze matricea in zig-zag (pe linii)
+
+Input               Output
+3 3
+1 2 3               1 2 3 6 5 4 7 8 9
+4 5 6
+7 8 9
+
+8. Se citeste un vector de dimensiune N*N. Sa se creeze si sa se afiseze matricea spirala provenita din acesta.
+
+Input                         Output
+3                             1 2 3
+1 2 3 4 5 6 7 8 9             8 9 4
+                              7 6 5
+

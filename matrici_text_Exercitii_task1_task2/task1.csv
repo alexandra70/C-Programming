@@ -1,0 +1,35 @@
+﻿1. Se citesc n si m, reprezentand numarul de linii, respectiv de coloane ale unei matrici. Apoi se citesc elementele matricii.
+Să se determine câte linii ale matricei au toate elementele egale. 
+2. Se citesc n si m, reprezentand numarul de linii, respectiv de coloane ale unei matrici. Apoi se citesc elementele matricii.
+Să se determine câte coloane ale matricei au elementele distincte două câte două.
+3. Se citesc n si m, reprezentand numarul de linii, respectiv de coloane ale unei matrici. Apoi se citesc elementele matricii.
+Să se determine si sa se afiseze coloanele matricei care au toate elementele egale cu aceeași valoare.
+4. Se citesc n si m, reprezentand numarul de linii, respectiv de coloane ale unei matrici. Apoi se citesc elementele matricii.
+Determinați indicele liniei care conține un număr maxim de elemente pare. Dacă există mai multe linii cu număr maxim de elemente pare,
+ se vor afișa toți indicii, în ordine crescătoare.
+5. Se citeste o matrice cu N linii si M coloane. Pentru liniile pare sa se afize minimul, iar pentru cele impare sa se afiseze maximul.
+Fiecare minim/maxim va fi printat pe o linie separata in formatul “nr_linie: min = x” pentru linii pare, “nr_linie: max = y” pentru linii impare,
+ iar index-ul nr_linie va incepe de la 1, reprezentarea tabloului incepand de la 0.
+
+Input
+3 3             Output
+1 2 3           1: min = 1
+4 5 6           2: max = 6
+7 10 12         3: min = 7
+
+6. Se citeste o matrice cu N linii si M coloane si un numar C reprezentand indicele unei coloane. Toate numerele de pe acea coloana vor fi inlocuite
+ cu maximul de pe linia din care fac parte.
+
+Input
+3 4 2           Output
+0 10 12 2       0 10 12 2
+4 5 21 89       4 5 89 89
+10 12 9 3       10 12 12 3
+
+7. Se citesc o matrice cu N linii si M coloane si un intreg d. Daca d este 0, sa se afiseze suma elementelor pe coloane. Daca d este 1, sa se afiseze suma elementelor pe linii. Daca d este 0, rezultateul va fi afisat pe o singura linie. Daca d este 1, rezultatul va fi afisat pe o singura coloana.|"
+
+Input
+2 3 0           Output
+10 2 21         20 35 22
+10 33 1
+
