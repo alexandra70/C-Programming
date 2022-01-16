@@ -1,3 +1,3 @@
 # Labs-Programare-C
 
-Laborator prorgamarea calculatoarelor - toate exercitiile.
+Laborator prorgamarea calculatoarelor - toate subiectele.
